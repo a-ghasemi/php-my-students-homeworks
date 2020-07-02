@@ -1,0 +1,13 @@
+{
+    "name": "user/homeworks",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Armin Ghasemi",
+            "email": "armin.ghassemi@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.2"
+    }
+}
