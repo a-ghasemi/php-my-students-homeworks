@@ -1,7 +1,7 @@
 <?php
 $mat = [
     [1122, 1, -1, 30, 12],
-    [1, 1, -1, .3, 1.2],
+    [1, 1, -1, 3.0, 1.2],
     [0, 22, 9, 18, 30],
     [500, 18, 3, -33, -22.21],
     [1, 2, 3, 4, 0],
@@ -18,7 +18,7 @@ function show_mat(array $mat): void
             $space = ((int)$item != $item && $len > 0) ? str_repeat(' ', $len) : '';
             $r .= sprintf("%s %{$max[$j][1]}s,", $space, $item);
         }
-        $r = substr($r,0,strlen($r) - 1);
+//        $r = substr($r,0,strlen($r) - 2);
         echo $r . "\n";
     }
 }
